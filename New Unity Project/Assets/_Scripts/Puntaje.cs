@@ -30,7 +30,7 @@ public class Puntaje : MonoBehaviour
 
     private void FixedUpdate() 
     {
-        puntajeAltoSO.puntaje += 50;
+        
     }
     // Update is called once per frame
     void Update()
@@ -48,5 +48,11 @@ public class Puntaje : MonoBehaviour
         //     textoPuntajeAlto.text =  $"PuntuajeActual: {puntos}";
         //     PlayerPrefs.SetInt("PuntuajeAlto", puntos); //Manera antigua de sistema de guardado
         // }
+    }
+
+
+    public void AumentarPuntuaje(int puntos)
+    {
+        puntajeAltoSO.puntaje += puntos;
     }
 }

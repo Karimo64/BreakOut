@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 7409787379781042579}
   - component: {fileID: 7180226443949447644}
   - component: {fileID: 5061823283148832056}
+  - component: {fileID: 8836098318583282174}
   m_Layer: 0
   m_Name: Bloque_Madera
-  m_TagString: Untagged
+  m_TagString: Bloque
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,4 +112,32 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
+--- !u!114 &8836098318583282174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601992238708964445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94940e979c0d4474e9f00ab998b4684f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resistencia: 1
+  AumentarPuntuaje:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Puntaje, Assembly-CSharp
+        m_MethodName: AumentarPuntuaje
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 50
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
