@@ -6,18 +6,20 @@ public class ControlBordes : MonoBehaviour
 {
     [Header("Configurar en el editor")]
     public float radio = 1f;
-    public bool mantenerEnPantalla;
+    public bool mantenerEnPantalla = false;
 
     [Header("Configuraciones dinamicas")]
     public bool estaEnPantalla = true;
     public float anchoCamara;
     public float altoCamara;
     public bool salioDerecha, salioIzquierda, salioArriba, salioAbajo;
+    
+    
     // Start is called before the first frame update
-    void Start()
+    public void Awake()
     {
         altoCamara = Camera.main.orthographicSize;
-        anchoCamara = Camera.main.aspect *altoCamara;
+        anchoCamara = Camera.main.aspect * altoCamara;
         
     }
 
@@ -39,7 +41,7 @@ public class ControlBordes : MonoBehaviour
         }
         if (pos.y > altoCamara - radio)
         {
-            pos.y = altoCamara - radio;
+            pos.y = anchoCamara - radio;
             salioArriba= true;
         }
         if (pos.y < -altoCamara + radio)

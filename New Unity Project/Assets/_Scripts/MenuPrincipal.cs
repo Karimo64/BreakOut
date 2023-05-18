@@ -27,7 +27,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void MostrarMenuInicial()
     {
-        MenuInicial.SetActive(true);
         MenuOpciones.SetActive(false);
+        MenuInicial.SetActive(true);
     }
 }

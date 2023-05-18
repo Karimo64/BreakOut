@@ -28,18 +28,16 @@ public class Puntaje : MonoBehaviour
         puntajeAltoSO.puntaje = 0;
     }
 
-    private void FixedUpdate() 
-    {
-        
-    }
+    
     // Update is called once per frame
     void Update()
     {
-        textoActual.text = $"PuntuajeActual: {puntajeAltoSO.puntaje}";
+        textoActual.text = $"PuntujeActual: {puntajeAltoSO.puntaje}";
         if(puntajeAltoSO.puntaje > puntajeAltoSO.puntajeAlto)
         {
             puntajeAltoSO.puntajeAlto = puntajeAltoSO.puntaje;
             textoPuntajeAlto.text =  $"PuntuajeAlto: {puntajeAltoSO.puntajeAlto}";
+            puntajeAltoSO.Guardar();
         }
         // textoActual.text = $"PuntuajeActual: {puntos}";
         // if(puntos > puntuajeAlto)

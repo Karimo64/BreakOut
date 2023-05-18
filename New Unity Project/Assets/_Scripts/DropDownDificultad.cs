@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DropDownDificultad : MonoBehaviour
 {
     public Opciones opciones;
-    public Dropdown dificultad;
+    private Dropdown dificultad;
     // Start is called before the first frame update
     public void Start()
     {

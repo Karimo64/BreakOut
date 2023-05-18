@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40e9aa96198e1814181759aa3c7f77fb, type: 3}
   m_Name: PuntajeAlto
   m_EditorClassIdentifier: 
+  puntaje: 0
+  puntajeAlto: 10000

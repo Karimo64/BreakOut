@@ -23,7 +23,7 @@ public abstract class PuntajePersistente : ScriptableObject
 
     public virtual void Cargar(string nombreArchivo = null)
     {
-        if(File.Exists(ObtenerRuta(nombreArchivo)));
+        if(File.Exists(ObtenerRuta(nombreArchivo)))
         {
             var bf = new BinaryFormatter();
             var archivo = File.Open(ObtenerRuta(nombreArchivo), FileMode.Open);
