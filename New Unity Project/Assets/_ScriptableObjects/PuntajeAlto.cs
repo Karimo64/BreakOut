@@ -7,5 +7,5 @@ using UnityEngine;
 public class PuntajeAlto : PuntajePersistente
 {
     public int puntaje = 0; 
-    public int puntajeAlto = 10000;
+    public int puntajeAlto = 500;
 }

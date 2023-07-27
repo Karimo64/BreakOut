@@ -15,8 +15,8 @@ public class Puntaje : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transformPuntajeActual = GameObject.Find("PuntuajeActual").transform;
-        transformPuntajeAlto = GameObject.Find("PuntuajeAlto").transform;
+        transformPuntajeActual = GameObject.Find("PuntajeActual").transform;
+        transformPuntajeAlto = GameObject.Find("PuntajeAlto").transform;
         textoActual = transformPuntajeActual.GetComponent<TMP_Text>();
         textoPuntajeAlto = transformPuntajeAlto.GetComponent<TMP_Text>();
         //if (PlayerPrefs.HasKey("PuntuajeAlto")) //Manera antigua de sistema de guardado
@@ -32,11 +32,11 @@ public class Puntaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textoActual.text = $"PuntujeActual: {puntajeAltoSO.puntaje}";
+        textoActual.text = $"PuntajeActual: {puntajeAltoSO.puntaje}";
         if(puntajeAltoSO.puntaje > puntajeAltoSO.puntajeAlto)
         {
             puntajeAltoSO.puntajeAlto = puntajeAltoSO.puntaje;
-            textoPuntajeAlto.text =  $"PuntuajeAlto: {puntajeAltoSO.puntajeAlto}";
+            textoPuntajeAlto.text =  $"PuntajeAlto: {puntajeAltoSO.puntajeAlto}";
             puntajeAltoSO.Guardar();
         }
         // textoActual.text = $"PuntuajeActual: {puntos}";
@@ -49,7 +49,12 @@ public class Puntaje : MonoBehaviour
     }
 
 
-    public void AumentarPuntuaje(int puntos)
+//    private void FixedUpdate() 
+//     {
+//         puntajeAltoSO.puntaje += 10;
+//     }
+
+    public void AumentarPuntaje(int puntos)
     {
         puntajeAltoSO.puntaje += puntos;
     }
