@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Bola : MonoBehaviour
 {
-    public bool  isGameStarted = false;
+    public bool  isGameStarted;
     [SerializeField] public float velocidadBola = 10.0f;
     Vector3 ultimaPosicion = Vector3.zero;
     Vector3 direccion = Vector3.zero;
@@ -41,7 +41,7 @@ public class Bola : MonoBehaviour
         if (control.salioArriba)
         {
             direccion = transform.position - ultimaPosicion;
-            Debug.Log("La bola toco el vorde superior");
+            Debug.Log("La bola toco el borde superior");
             direccion.y *=-1;
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
@@ -52,7 +52,7 @@ public class Bola : MonoBehaviour
         if (control.salioDerecha)
         {
             direccion = transform.position - ultimaPosicion;
-            Debug.Log("La bola toco el vorde derecho");
+            Debug.Log("La bola toco el borde derecho");
             direccion.x *=-1;
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
@@ -63,7 +63,7 @@ public class Bola : MonoBehaviour
         if (control.salioIzquierda)
         {
             direccion = transform.position - ultimaPosicion;
-            Debug.Log("La bola toco el vorde izquierdo");
+            Debug.Log("La bola toco el borde izquierdo");
             direccion.x *=-1;
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
@@ -74,7 +74,7 @@ public class Bola : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) || Input.GetButton("Submit"))
         {
-            if ( !isGameStarted)
+            if (!isGameStarted)
             {
                 isGameStarted = true;
                 this.transform.SetParent(null);
