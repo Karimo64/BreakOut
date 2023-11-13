@@ -143,6 +143,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  opcionesSO: {fileID: 11400000, guid: 7b2f0d08a1d318342af4e30d0948df98, type: 2}
 --- !u!114 &4894655741584157138
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class SliderVelocidad : MonoBehaviour
 {
     public Opciones opciones;
-
     Slider slider;
 
     // Start is called before the first frame update

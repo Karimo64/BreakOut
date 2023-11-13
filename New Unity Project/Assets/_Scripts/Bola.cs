@@ -12,6 +12,7 @@ public class Bola : MonoBehaviour
     Rigidbody rigidbody;
     private ControlBordes control;
     public UnityEvent BolaDestruida;
+    public Opciones opcionesSO;
 
     //Vector3 initialPos;
     // Start is called before the first frame update
@@ -28,11 +29,18 @@ public class Bola : MonoBehaviour
         this.transform.position = posInicial;
         this.transform.SetParent(GameObject.FindGameObjectWithTag("Jugador").transform);
         rigidbody = this.gameObject.GetComponent<Rigidbody>();
+        
     }
+    
 
     // Update is called once per frame
     void Update()
     {
+        //CambiarVelocidad.GetComponent<float>(velocidadBola);
+        //opcionesSO.CambiarVelocidad(velocidadBola);
+        
+        velocidadBola = opcionesSO.velocidadBolaSO;
+        
         if(control.salioAbajo)
         {
             BolaDestruida.Invoke();

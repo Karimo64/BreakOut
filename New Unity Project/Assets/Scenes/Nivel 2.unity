@@ -736,7 +736,7 @@ PrefabInstance:
       value: Bloque_Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 7812050650632438068, guid: b3253210d17e4e24c945e723c5e4f9e8, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -749,7 +749,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -820,7 +820,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -1147,7 +1147,7 @@ PrefabInstance:
       value: Bloque_Madera (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8836098318583282174, guid: 5517b316b7f02554ea9f0aa7c5c06ba2, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -1474,7 +1474,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -1668,7 +1668,7 @@ PrefabInstance:
       value: Bloque_Piedra (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7812050650632438068, guid: b3253210d17e4e24c945e723c5e4f9e8, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -1729,7 +1729,7 @@ PrefabInstance:
       value: Bloque_Piedra (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7812050650632438068, guid: b3253210d17e4e24c945e723c5e4f9e8, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -2224,7 +2224,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -2369,7 +2369,7 @@ PrefabInstance:
       value: Bloque_Piedra (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7812050650632438068, guid: b3253210d17e4e24c945e723c5e4f9e8, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -2853,7 +2853,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -2991,7 +2991,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -3835,7 +3835,7 @@ PrefabInstance:
       value: Bloque_Madera
       objectReference: {fileID: 0}
     - target: {fileID: 8836098318583282174, guid: 5517b316b7f02554ea9f0aa7c5c06ba2, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -4241,7 +4241,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -5090,7 +5090,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -5199,7 +5199,7 @@ PrefabInstance:
       value: Bloque_Piedra (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7812050650632438068, guid: b3253210d17e4e24c945e723c5e4f9e8, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -5380,7 +5380,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -5441,7 +5441,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -5555,7 +5555,7 @@ PrefabInstance:
       value: Bloque_Piedra (5)
       objectReference: {fileID: 0}
     - target: {fileID: 7812050650632438068, guid: b3253210d17e4e24c945e723c5e4f9e8, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     m_RemovedComponents: []
@@ -5936,7 +5936,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -6440,7 +6440,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705542194}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 833953947}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
