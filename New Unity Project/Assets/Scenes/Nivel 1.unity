@@ -131,9 +131,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (24)
@@ -683,9 +715,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (19)
@@ -828,9 +892,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (20)
@@ -889,9 +985,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (31)
@@ -950,9 +1078,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (11)
@@ -1220,9 +1380,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (8)
@@ -1756,9 +1948,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (26)
@@ -2109,9 +2333,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (25)
@@ -2250,9 +2506,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (23)
@@ -2311,9 +2599,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (29)
@@ -3440,7 +3760,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
-      propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
@@ -3501,9 +3821,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (17)
@@ -3676,9 +4028,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (12)
@@ -3818,9 +4202,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (30)
@@ -4087,9 +4503,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (14)
@@ -4650,9 +5098,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (27)
@@ -4711,9 +5191,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (10)
@@ -5140,9 +5652,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (22)
@@ -5543,7 +6087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 195}
+  m_AnchoredPosition: {x: 0, y: 163.29}
   m_SizeDelta: {x: 87.0284, y: 24.6819}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689473648
@@ -5869,9 +6413,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (16)
@@ -5930,9 +6506,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (18)
@@ -5991,9 +6599,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (13)
@@ -6223,6 +6863,18 @@ PrefabInstance:
       value: 'Bola '
       objectReference: {fileID: 0}
     - target: {fileID: 4894655741584157141, guid: 071c966ece9a19249b9d67abf5533a7d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894655741584157141, guid: 071c966ece9a19249b9d67abf5533a7d, type: 3}
+      propertyPath: opcionesSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 7b2f0d08a1d318342af4e30d0948df98, type: 2}
+    - target: {fileID: 4894655741584157141, guid: 071c966ece9a19249b9d67abf5533a7d, type: 3}
+      propertyPath: velocidadBola
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894655741584157141, guid: 071c966ece9a19249b9d67abf5533a7d, type: 3}
       propertyPath: BolaDestruida.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1871033766}
@@ -6424,6 +7076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   opciones: {fileID: 11400000, guid: 7b2f0d08a1d318342af4e30d0948df98, type: 2}
+  dificultad: {fileID: 0}
 --- !u!114 &1916176564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6672,9 +7325,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (15)
@@ -7004,9 +7689,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (21)
@@ -7110,9 +7827,41 @@ PrefabInstance:
     m_TransformParent: {fileID: 980982818}
     m_Modifications:
     - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: AumentarPuntuaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1344237073}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AumentarPuntaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Puntaje, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 217446460792413382, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
+      propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1839178355628918990, guid: 199a2f96b2764c041b483711fffeba94, type: 3}
       propertyPath: m_Name
       value: Bloque_Vidrio (28)
