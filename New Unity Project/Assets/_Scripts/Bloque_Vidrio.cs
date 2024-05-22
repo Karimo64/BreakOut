@@ -5,7 +5,6 @@ using UnityEngine;
 public class Bloque_Vidrio : Bloque
 {
     
-    // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
