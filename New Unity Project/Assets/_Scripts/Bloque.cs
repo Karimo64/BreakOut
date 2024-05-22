@@ -31,7 +31,7 @@ public class Bloque : MonoBehaviour
         collision.rigidbody.velocity = collision.gameObject.GetComponent<Bola>().velocidadBola * direccion;
         resistencia--;
     }
-    // Start is called before the first frame update
+    
     protected virtual void Start()
     {
         UpdateResistanceBasedOnDifficulty();
@@ -59,7 +59,7 @@ public class Bloque : MonoBehaviour
                 resistencia = 3;
                 break;
             default:
-                resistencia = 1; // Default to easy difficulty
+                resistencia = 1; 
                 break;
         }
         Debug.Log($"Updated resistance to {resistencia} based on difficulty {opciones.NivelDificultadSO}");
