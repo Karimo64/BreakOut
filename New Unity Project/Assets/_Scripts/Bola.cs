@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Bola : MonoBehaviour
 {
-    public bool  isGameStarted;
+    public bool isGameStarted;
     [SerializeField] public float velocidadBola = 10.0f;
     Vector3 ultimaPosicion = Vector3.zero;
     Vector3 direccion = Vector3.zero;
@@ -14,34 +14,40 @@ public class Bola : MonoBehaviour
     public UnityEvent BolaDestruida;
     public Opciones opcionesSO;
 
-    //Vector3 initialPos;
-    // Start is called before the first frame update
-
-    private void Awake() 
+    private void Awake()
     {
         control = GetComponent<ControlBordes>();
     }
+
     void Start()
     {
-        isGameStarted = false; 
+        isGameStarted = false;
         Vector3 posInicial = GameObject.FindGameObjectWithTag("Jugador").transform.position;
-        posInicial.y += 3; 
+        posInicial.y += 3;
         this.transform.position = posInicial;
         this.transform.SetParent(GameObject.FindGameObjectWithTag("Jugador").transform);
         rigidbody = this.gameObject.GetComponent<Rigidbody>();
-        
-    }
-    
 
-    // Update is called once per frame
+        if (opcionesSO != null)
+        {
+            velocidadBola = opcionesSO.velocidadBolaSO;
+            Debug.Log($"Initial speed set from ScriptableObject: {velocidadBola}");
+        }
+    }
+
     void Update()
     {
-        //CambiarVelocidad.GetComponent<float>(velocidadBola);
-        //opcionesSO.CambiarVelocidad(velocidadBola);
-        
-        velocidadBola = opcionesSO.velocidadBolaSO;
-        
-        if(control.salioAbajo)
+        if (opcionesSO != null)
+        {
+            velocidadBola = opcionesSO.velocidadBolaSO;
+            Debug.Log($"Speed updated from ScriptableObject: {velocidadBola}");
+        }
+        else
+        {
+            Debug.LogError("Opciones ScriptableObject is not assigned.");
+        }
+
+        if (control.salioAbajo)
         {
             BolaDestruida.Invoke();
             Destroy(this.gameObject);
@@ -50,7 +56,7 @@ public class Bola : MonoBehaviour
         {
             direccion = transform.position - ultimaPosicion;
             Debug.Log("La bola toco el borde superior");
-            direccion.y *=-1;
+            direccion.y *= -1;
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
             control.salioArriba = false;
@@ -61,7 +67,7 @@ public class Bola : MonoBehaviour
         {
             direccion = transform.position - ultimaPosicion;
             Debug.Log("La bola toco el borde derecho");
-            direccion.x *=-1;
+            direccion.x *= -1;
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
             control.salioDerecha = false;
@@ -72,7 +78,7 @@ public class Bola : MonoBehaviour
         {
             direccion = transform.position - ultimaPosicion;
             Debug.Log("La bola toco el borde izquierdo");
-            direccion.x *=-1;
+            direccion.x *= -1;
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
             control.salioIzquierda = false;
@@ -86,24 +92,24 @@ public class Bola : MonoBehaviour
             {
                 isGameStarted = true;
                 this.transform.SetParent(null);
-                GetComponent<Rigidbody>().velocity = velocidadBola * Vector3.up;
+                rigidbody.velocity = velocidadBola * Vector3.up;
             }
         }
     }
-
 
     private void HabilitarControl()
     {
         control.enabled = true;
     }
 
-    private void FixedUpdate() 
+    private void FixedUpdate()
     {
         ultimaPosicion = transform.position;
     }
 
     public void LateUpdate()
     {
-        if(direccion != Vector3.zero) direccion = Vector3.zero;
+        if (direccion != Vector3.zero) direccion = Vector3.zero;
     }
 }
+

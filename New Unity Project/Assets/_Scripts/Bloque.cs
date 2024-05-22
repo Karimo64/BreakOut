@@ -5,9 +5,17 @@ using UnityEngine.Events;
 
 public class Bloque : MonoBehaviour
 {
-    public int resistencia = 1; 
+    public int resistencia; 
     public UnityEvent AumentarPuntaje;
+    public Opciones opciones;
 
+    public void Awake()
+    {
+       if(opciones == null)
+        {
+            opciones = FindObjectOfType<Opciones>();
+        }
+    }
     public void OnCollisionEnter(Collision collision) 
     {
         if(collision.gameObject.tag == "Bola")
@@ -24,18 +32,37 @@ public class Bloque : MonoBehaviour
         resistencia--;
     }
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
-        
+        UpdateResistanceBasedOnDifficulty();
     }
 
-    // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
-        if(resistencia <= 0)
+        if (resistencia <= 0)
         {
             Destroy(this.gameObject);
         }
+    }
+
+    public void UpdateResistanceBasedOnDifficulty()
+    {
+        switch (opciones.NivelDificultadSO)
+        {
+            case Opciones.dificultad.facil:
+                resistencia = 1;
+                break;
+            case Opciones.dificultad.normal:
+                resistencia = 2;
+                break;
+            case Opciones.dificultad.dificil:
+                resistencia = 3;
+                break;
+            default:
+                resistencia = 1; // Default to easy difficulty
+                break;
+        }
+        Debug.Log($"Updated resistance to {resistencia} based on difficulty {opciones.NivelDificultadSO}");
     }
 
 }
